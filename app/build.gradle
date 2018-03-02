@@ -51,10 +51,10 @@ dependencies {
 
 ext{
     tinkerEnable = true
-    tinkerOldApkPath = "${bakPath}/app-release-0228-18-02-25.apk"
+    tinkerOldApkPath = "${bakPath}/app-release-0302-16-48-43.apk"
     tinkerId = "$VERSTION_NAME"
-    tinkerApplyMappingPath = "${bakPath}/app-release-0228-18-02-25-mapping.txt"
-    tinkerApplyResourcePath = "${bakPath}/app-release-0228-18-02-25-R.txt"
+    tinkerApplyMappingPath = "${bakPath}/app-release-0302-16-48-43-mapping.txt"
+    tinkerApplyResourcePath = "${bakPath}/app-release-0302-16-48-43-R.txt"
 }
 
 def buildWithTinker(){

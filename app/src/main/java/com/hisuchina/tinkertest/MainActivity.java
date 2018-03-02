@@ -17,11 +17,15 @@ public class MainActivity extends AppCompatActivity {
 
 	public void loadPatch(View view){
 		Toast.makeText(this, "load patch", Toast.LENGTH_SHORT).show();
-		TinkerManager.loadPatch("/storage/emulated/0/tinker.apk");
+		TinkerManager.loadPatch("/storage/emulated/0/tinker.apk","");
 	}
 
 	public void testBtn(View view){
 		Intent intent = new Intent(this, TestActivity.class);
 		startActivity(intent);
+	}
+
+	public void testBtn2(View view){
+		Toast.makeText(this, "show test", Toast.LENGTH_SHORT).show();
 	}
 }

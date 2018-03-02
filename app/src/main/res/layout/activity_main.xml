@@ -14,10 +14,19 @@ android:background="@color/colorAccent">
 	        android:layout_height = "wrap_content"
 	        android:text="load patch"
 	        android:onClick="loadPatch" />
-	<Button android:layout_width = "match_parent"
+	<Button
+			android:id="@+id/test_btn"
+			android:layout_width = "match_parent"
 	        android:layout_height = "wrap_content"
 	        android:text="测试按钮"
 	        android:onClick="testBtn"
 	        app:layout_constraintTop_toBottomOf="@+id/load_patch_btn"
 	        tools:ignore = "OnClick" />
+	<Button android:layout_width = "match_parent"
+	        android:layout_height = "wrap_content"
+	        android:text="测试按钮2"
+	        android:onClick="testBtn2"
+	        app:layout_constraintTop_toBottomOf="@+id/test_btn"
+	        tools:ignore = "OnClick"
+	android:visibility="visible"/>
 </android.support.constraint.ConstraintLayout>
